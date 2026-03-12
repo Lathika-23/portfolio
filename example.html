@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <style>
+            body{
+                background-color: rgb(11, 11, 54);
+            }
+            .navigation{
+                color: crimson;
+                position: relative;
+                top: 10px;
+                left: 60px;
+                font-family: sans-serif;
+            }
+            .nav{
+                float: right;
+                position: relative;
+                right: 30px;
+                top:2px;
+                display: flex;
+                gap: 15px;
+                
+            }
+            
+            a{
+                color: aliceblue;
+                text-decoration:none;
+            }
+            a:hover{
+                color: aqua;
+                transform:scale(1.2);
+                transition: transform 2s ease;
+            }
+            h3{
+                color: crimson;
+                position: relative;
+                top: 100px;
+                left: 60px;
+            }
+            h1{
+                color: aliceblue;
+                position: relative;
+                top: 90px;
+                left: 60px;
+                font-family: sans-serif;
+            }
+            .one{
+                position: relative;
+                top: 100px;
+                left: 60px;
+                color: aliceblue;
+            }
+            .image{
+                float: right;
+                position: relative;
+                bottom: 150px;
+                right: 100px;              
+            }
+            .image:hover{
+                transform: scale(1.2);
+                transition: transform 2s ease;
+            }
+            .image2{
+                position: relative;
+                top: 400px;
+                left: 100px;
+            }           
+            .image2:hover{
+                transform: scale(1.1);
+                transition: transform 1s ease;
+            }
+            .text2{
+                color: aliceblue;
+                margin: 3px;
+                border:3px;
+                padding: 3px;
+                height: 500px;
+                width: 400px;
+                float: right;
+                
+            }
+            button{
+                background-color: red;
+                color: aliceblue;
+                float: right;
+                width: 150px;
+                height: 60px;
+                position: relative;
+                top: 430px;
+                left: 160px;
+                bottom: 400px;   
+            }
+            button:hover{
+                transform: scale(1.2);
+                transition: transform 2s ease;
+            }
+            @media(max-width:468px) {
+                body{
+                    background-color: wheat;
+                }
+                .image,.image2{
+                    flex-direction: column;
+                    background-color: aliceblue;
+                }
+                .text,.text2{
+                    flex-direction: column;
+                    background-color: black;
+                }
+                
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="total">
+            <!--Top-->
+            <div class="navigation">
+                <div class="logo"><b>MASUD</b></div>
+            </div>
+            <div class="nav">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">SERVICE</a>
+                <a href="#">PORTFOLIO</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTACT</a>
+
+            </div>
+        </div>
+       <section>
+          <!--Section 1-->
+        <div class="section">
+            <div class="text">
+                <h3>WELCOME!!</h3>
+                <h1>I Am Web Designer</h1>
+                <P class="one">I'm a Web Developer with extensive experience for over 5 years.My expertise is<br> to create and Websites design,graphic design and many more....</P>
+            </div>
+            <div class="image">
+                <img src="images/author2-1 (1).png" width="400px"  height="400px">
+            </div>
+        </div>
+       </section>
+      
+        <!--Section 2-->
+        <section>
+            <div class="section2">
+            <div class="image2">
+                <img src="images/program-img.png" width="400px" height="400px">
+
+            </div>
+            <div class="text2">
+                <h2>Hello,I am Masud Iqbal</h2>
+                <p>I am a passionate and creative web designer who enjoys turning ideas into visually appealing and functional websites. I focus on creating clean, responsive, and user-friendly designs that provide a smooth experience across all devices. With strong knowledge of HTML, CSS, and modern design principles, I aim to build websites that are not only attractive but also practical and efficient. I am always eager to learn new technologies and improve my skills to deliver better digital experiences.</p>
+                <p>Name:Masud Iqubal</p>
+                <p>Age:30</p>
+                <p>Address:Karachi,Pakisthan</p>
+                <p>phone Number:+00 820-585-1321</p>
+                <p>Email:masudiqubal@gmail.com</p>
+            </div>
+        </div>
+    </section>
+        
+        </div> 
+        <button>Download CV</button> 
+    </body>
+</html>
